@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Danfo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Manrope", sans-serif;
+    /* font-family: "Bebas Neue", sans-serif; */
+    /* font-family: "Danfo", serif; */
+    /* font-family: "Roboto", sans-serif;*/
+}
+
+:root {
+    /* COLORS */
+    --mgc-color-010: #d4d4d4;
+    --mgc-color-020: #ff9900;
+    --mgc-color-030: #959595;
+    --mgc-color-040: #3b3b3b;
+
+    --mgc-white: var(--mgc-color-010);
+    --mgc-orange: var(--mgc-color-020);
+    --mgc-light-grey: var(--mgc-color-030);
+    --mgc-dark-grey: var(--mgc-color-040);
+
+    /* SPACINGS */
+
+    /* MARGINS */
+    --mgc-margin-s: 5px;
+    --mgc-margin-m: 10px;
+    --mgc-margin-l: 20px;
+    --mgc-margin-xl: 40px;
+    --mgc-margin-ultra: 80px;
+
+    /* PADDINGS */
+    --mgc-padding-s: 5px;
+    --mgc-padding-m: 10px;
+    --mgc-padding-l: 20px;
+    --mgc-padding-xl: 40px;
+    --mgc-padding-ultra: 80px;
+
+    /* GAPS */
+    --mgc-gap-s: 5px;
+    --mgc-gap-m: 10px;
+    --mgc-gap-l: 20px;
+    --mgc-gap-xl: 40px;
+    --mgc-gap-ultra: 80px;
+
+    /* RADIUS */
+    --mgc-br-s: 5px;
+    --mgc-br-m: 10px;
+    --mgc-br-l: 20px;
+    --mgc-br-xl: 40px;
+
+    /* Font sizes */
+    --mgc-font-size-xs: 12px;
+    --mgc-font-size-s: clamp(0.7rem, 0.15vw + 0.65rem, 0,9rem);
+    --mgc-font-size-base: clamp(1rem, 0.40vw + 0.9rem, 1.2rem);
+    --mgc-font-size-l: clamp(1.5rem, 1vw + 1.2rem, 2rem);
+}
+
+body{
+    width: 100%;
+    min-height: 100svh;
+    background: linear-gradient(180deg, rgb(34, 34, 34) 0%, rgba(50,50,51,1) 29%, rgba(96,102,103,1) 68%, rgba(166,181,184,1) 100%);
+}

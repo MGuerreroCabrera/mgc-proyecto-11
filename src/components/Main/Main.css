@@ -1,0 +1,10 @@
+main {
+    width: 100%;
+    min-height: 80svh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: var(--mgc-gap-xl);
+    padding: var(--mgc-padding-xl);
+}

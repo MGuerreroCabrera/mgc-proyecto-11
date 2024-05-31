@@ -1,0 +1,27 @@
+#pagination {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+#pagination > button {
+    background-color: var(--mgc-orange);
+    border: none;
+    outline: 1px solid var(--mgc-white);
+    color: var(--mgc-white);
+    padding: 15px 20px;
+    text-align: center;
+    font-size: var(--mgc-font-size-base);
+    cursor: pointer;
+    border-radius: 45%;
+}
+
+#pagination > button:disabled {
+    cursor: not-allowed;
+}
+
+
+.sphere {
+    width: 50px;
+}
